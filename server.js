@@ -1,6 +1,6 @@
 const express = require('express')
-const cors = require ('cors')//05.05----------------------------
-const sqlite3 =require ('sqlite3')//25.04----------------------------
+const cors = require ('cors')
+const sqlite3 =require ('sqlite3')
 const mysql= require  ('mysql')
 const myconn = require ('express-myconnection')
 
