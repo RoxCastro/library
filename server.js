@@ -20,12 +20,9 @@ const dbOptions = {
 //middlewares----------------------------
 app.use( myconn(mysql, dbOptions, 'single'))
 app.use( express.json())
-app.use(cors()) //05.05----------------------------
+app.use(cors()) 
 
 
-
-
-//25.04----------------------------
 const bookArr = []
 
 
